@@ -2,22 +2,15 @@
   --main-blue: #00acdc;
 }
 
-* {
+html {
   box-sizing: border-box;
-  padding: 0;
+}
+
+body {
   margin: 0;
 }
 
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-header {
+.header {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -33,6 +26,9 @@ header {
 
 .menu-list {
   display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menu-link {
@@ -42,6 +38,7 @@ header {
   display: flex;
   align-items: center;
   height: 60px;
+  text-decoration: none;
   text-transform: uppercase;
   color: #000;
   position: relative;
